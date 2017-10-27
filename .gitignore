@@ -1,0 +1,8 @@
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# Custom Datasets
+archive.ics.uci.edu
+
+# Jupyter Notebook
+.ipynb_checkpoints
