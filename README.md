@@ -2,12 +2,12 @@
 
 Create environment with `pipenv`:
 
-```python
+```bash
 $ pipenv install --dev
 ```
 
 Use Jypyter Notevook to convert notebook to slides and open with Web Server:
 
-```python
+```bash
 $ jupyter nbconvert Jupyter demo_iris.ipynb --to slides --post serve
 ```
