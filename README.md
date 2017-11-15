@@ -21,3 +21,13 @@ If error occurs when you use the slideshow function, download Reveal.js (Can be 
 ```bash
 $ jupyter nbconvert Jupyter demo_iris.ipynb --to slides --post serve --reveal-prefix ./bower_components/reveal.js/
 ```
+
+Reveal.js provides PDF printing feature, just append the `print-pdf` string into the URL then use the printing function of the web browser:
+
+```
+# Output as printable format
+http://localhost:8000/?print-pdf
+
+# Includes the speaker notes
+http://localhost:8000/?print-pdf&showNotes=true
+```
